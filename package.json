@@ -1,6 +1,6 @@
 {
-  "name": "@mikk3lro/mc-fontpicker",
-  "version": "0.1.4",
+  "name": "@libshaun/mc-fontpicker",
+  "version": "1.0.0",
   "description": "A simple google font picker component for Vue.js. Easy to implement, easy to use.",
   "keywords": [
     "fontpicker",
@@ -9,17 +9,17 @@
     "font",
     "vue"
   ],
-  "homepage": "https://github.com/Mikk3lRo/vue-fontpicker#readme",
+  "homepage": "https://github.com/simshaun/vue-fontpicker#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Mikk3lRo/vue-fontpicker.git"
+    "url": "https://github.com/simshaun/vue-fontpicker.git"
   },
   "author": {
-    "name": "Mikk3lRo",
-    "email": "mikk3lro@gmail.com"
+    "name": "Shaun Simmons",
+    "email": "gh@simshaun.com"
   },
   "license": "MIT",
-  "main": "./dist/mc-fontpicker.common.js",
+  "main": "./dist/vue-fontpicker.common.js",
   "scripts": {
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build --dest ./docs && vue-cli-service build --dest ./dist --target lib --name mc-fontpicker ./src/components/index.js && rm ./dist/demo.html",

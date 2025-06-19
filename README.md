@@ -2,6 +2,9 @@
 
 A simple google font picker component for Vue.js. Easy to implement, easy to use.
 
+This is a fork of https://github.com/Mikk3lRo/vue-fontpicker with an updated set
+of fonts.
+
 # Documentation
 Documentation and live demo is available at:
 https://mikk3lro.github.io/vue-fontpicker/
@@ -10,16 +13,16 @@ https://mikk3lro.github.io/vue-fontpicker/
 
 ```bash
 # yarn  
-yarn add @mikk3lro/mc-fontpicker
+yarn add @libshaun/mc-fontpicker
 # npm
-npm i @mikk3lro/mc-fontpicker
+npm i @libshaun/mc-fontpicker
 ```
 
 Then, import and register the component and stylesheet:
 
 ```js
-import McFontpicker from '@mikk3lro/mc-fontpicker';
-import '@mikk3lro/mc-fontpicker/dist/mc-fontpicker.css';
+import McFontpicker from '@libshaun/mc-fontpicker';
+import '@libshaun/mc-fontpicker/dist/mc-fontpicker.css';
 
 Vue.component("McFontpicker", McFontpicker);
 ```

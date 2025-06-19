@@ -236,6 +236,7 @@ class fontPreviewBuilder {
             imagefill($dst, 0, 0, $trans);
 
             foreach ($fonts as $num => $font) {
+                echo 'imaging: '.$font['name']."\n";
                 $src = imagecreatetruecolor($srcW, $srcH);
                 $trans = imagecolorallocatealpha($src, 255, 255, 255, 127);
                 $black = imagecolorallocate($src, 0, 0, 0);
