@@ -12,7 +12,7 @@
   "homepage": "https://github.com/simshaun/vue-fontpicker#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/simshaun/vue-fontpicker.git"
+    "url": "git+https://github.com/simshaun/vue-fontpicker.git"
   },
   "author": {
     "name": "Shaun Simmons",
