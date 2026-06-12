@@ -226,7 +226,7 @@ class fontPreviewBuilder {
             $srcW = intval(ceil(600 * $scale));
             $srcH = intval(ceil(self::$cellHeight * $scale));
 
-            $fontSize = 16 * $scale;
+            $fontSize = 18 * $scale;
             $indent = intval(ceil(10 * $scale));
             $baseline = intval(ceil((self::$cellHeight - 12) * $scale));
 
